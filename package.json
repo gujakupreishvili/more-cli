@@ -1,0 +1,21 @@
+{
+  "name": "pirveli-shualeduri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-cli": "createExpens.js",
+    "delete-cli": "delete.js",
+    "search-cli": "searchExpens.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "comander": "^0.0.1-security",
+    "commander": "^12.1.0"
+  }
+}
